@@ -1,16 +1,15 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  @apply text-sm;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  @apply text-green-600 font-medium underline;
 }
 
-* {
-  box-sizing: border-box;
+a.selected {
+  @apply bg-green-500 text-white;
 }
