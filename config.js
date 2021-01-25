@@ -15,7 +15,7 @@ export const DEFAULT_SEO = {
       "Sergio Mattei is a maker, entrepreneur and self-taught programmer.",
     images: [
       {
-        url: `${BASE_URL}/me.png`,
+        url: `${BASE_URL}/me_square.jpeg`,
       },
     ],
     site_name: "Sergio Mattei",
