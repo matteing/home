@@ -1,11 +1,23 @@
+import { NextSeo } from "next-seo";
 import Post from "../../components/Post";
+import { BASE_URL } from "../../config";
 import { getPostBySlug, getAllPosts } from "../../lib/posts";
 
 export default function BlogPost({ post }) {
   return (
-    <div>
+    <>
+      <NextSeo
+        title={post.title}
+        description={post.description || post.excerpt}
+        openGraph={{
+          url: BASE_URL,
+          title: post.title,
+          description: post.description || post.excerpt,
+          site_name: "Sergio Mattei",
+        }}
+      />
       <Post single post={post} />
-    </div>
+    </>
   );
 }
 

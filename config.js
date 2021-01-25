@@ -1,14 +1,27 @@
-export default {
-  url: "https://nextjs-mdx-blog-starter.vercel.app/",
-  title: "Next.js MDX Blog Starter",
-  subtitle: "Content authoring with MDX. Powered by Next.js.", // longDescription : appears in landing page meta description
+export const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL
+  ? process.env.NEXT_PUBLIC_BASE_URL
+  : "https://sergiomattei.com";
+
+export const POSTS_PER_PAGE = 3;
+export const DEFAULT_SEO = {
+  title: "Home",
+  titleTemplate: `%s | Sergio Mattei`,
   description:
-    "Next.js MDX Blog Starter for building blogs with Next.js and MDX, including Theme UI Component Design System, Vercel Deployment and more.",
-  author: "John Polacek",
-  analytics: "", // put your google analytics code here to add tracking
-  shareImage: "https://nextjs-mdx-blog-starter.now.sh/screenshot.png",
-  shareImageAlt: "Next.js MDX Blog Starter Screenshot",
-  postsPerPage: 8,
-  showDate: true, // if you would like the date to appear on the blog posts
-  disqus: "", // your disqus shortname, remove if you don't use disqus
+    "Sergio Mattei is a maker, entrepreneur and self-taught programmer.",
+  openGraph: {
+    url: BASE_URL,
+    title: "Sergio Mattei",
+    description:
+      "Sergio Mattei is a maker, entrepreneur and self-taught programmer.",
+    images: [
+      {
+        url: `${BASE_URL}/me.png`,
+      },
+    ],
+    site_name: "Sergio Mattei",
+  },
+  twitter: {
+    handle: "@matteing",
+    site: "@matteing",
+  },
 };

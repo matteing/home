@@ -1,0 +1,108 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Sergio Mattei's Blog</title>
+      <link>https://sergiomattei.com/blog</link>
+      <description>I write about maker culture, life and entrepreneurship.</description>
+      <language>en</language>
+      <lastBuildDate>Sun, 24 Jan 2021 04:00:00 GMT</lastBuildDate>
+      <atom:link href="https://sergiomattei.com/rss.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://sergiomattei.com/blog/the-flag-matters</guid>
+    <title>The Flag Matters</title>
+    <link>https://sergiomattei.com/blog/the-flag-matters</link>
+    <description>The flag instills a responsibility to create software to proud of.</description>
+    <pubDate>Sun, 24 Jan 2021 04:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://sergiomattei.com/blog/the-cabin-logo</guid>
+    <title>The Cabin Logo</title>
+    <link>https://sergiomattei.com/blog/the-cabin-logo</link>
+    <description>I love the Cabin logo because of the amount of symbolism and meaning it has.</description>
+    <pubDate>Mon, 18 Jan 2021 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://sergiomattei.com/blog/playlist-alert-house-vibes</guid>
+    <title>Playlist Alert: House Vibes</title>
+    <link>https://sergiomattei.com/blog/playlist-alert-house-vibes</link>
+    <description>Get your fix of Yaeji, Park Hye Jin and many other great electronic/house artists in this carefully-crafted playlist.</description>
+    <pubDate>Tue, 12 Jan 2021 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://sergiomattei.com/blog/the-value-of-service</guid>
+    <title>The Power of Service</title>
+    <link>https://sergiomattei.com/blog/the-value-of-service</link>
+    <description>Lately I’ve been thinking a lot about the value of service.</description>
+    <pubDate>Tue, 12 Jan 2021 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://sergiomattei.com/blog/why-i-do-it</guid>
+    <title>Why I Do It</title>
+    <link>https://sergiomattei.com/blog/why-i-do-it</link>
+    <description>I'm a bit of a dreamer, but there's a reason why.</description>
+    <pubDate>Mon, 11 Jan 2021 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://sergiomattei.com/blog/a-new-year-21</guid>
+    <title>A New Year</title>
+    <link>https://sergiomattei.com/blog/a-new-year-21</link>
+    <description>Get your fix of Yaeji, Park Hye Jin and many other great electronic/house artists in this carefully-crafted playlist.</description>
+    <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://sergiomattei.com/blog/remote-first-covid-blooper-bingo</guid>
+    <title>Remote-First COVID Blooper Bingo</title>
+    <link>https://sergiomattei.com/blog/remote-first-covid-blooper-bingo</link>
+    <description>Here’s a list of stupid bloopers I’ve endured while doing the whole remote thing.</description>
+    <pubDate>Sun, 23 Aug 2020 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://sergiomattei.com/blog/working-out</guid>
+    <title>Working Out</title>
+    <link>https://sergiomattei.com/blog/working-out</link>
+    <description>Don’t take your workouts so seriously.</description>
+    <pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://sergiomattei.com/blog/reduce-choice</guid>
+    <title>Reduce Choice</title>
+    <link>https://sergiomattei.com/blog/reduce-choice</link>
+    <description>Choice drives us insane.</description>
+    <pubDate>Wed, 19 Aug 2020 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://sergiomattei.com/blog/take-naps-outside</guid>
+    <title>Take Naps Outside</title>
+    <link>https://sergiomattei.com/blog/take-naps-outside</link>
+    <description>Sunday was an incredibly stressful day for me.</description>
+    <pubDate>Tue, 18 Aug 2020 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://sergiomattei.com/blog/the-sun</guid>
+    <title>The Sun</title>
+    <link>https://sergiomattei.com/blog/the-sun</link>
+    <description>It was a great day.</description>
+    <pubDate>Tue, 18 Aug 2020 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://sergiomattei.com/blog/those-days</guid>
+    <title>Those Days</title>
+    <link>https://sergiomattei.com/blog/those-days</link>
+    <description>Today is one of those days.</description>
+    <pubDate>Tue, 18 Aug 2020 00:00:00 GMT</pubDate>
+  </item>
+
+    </channel>
+  </rss>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <div className="flex flex-col space-y-1 mb-4">
+    <div className="flex flex-wrap space-x-2 lg:space-x-0 lg:flex-col lg:space-y-1 mb-4">
       <span>
         <Link href="/">
           <a>Home</a>
@@ -18,20 +18,31 @@ export default function Nav() {
         <a href="/lists">Lists</a>
       </span>
       <span>
-        <a href="/">Email ↗</a>
+        <a href="mailto:info@sergiomattei.com" target="_blank">
+          Email&nbsp;↗
+        </a>
       </span>
       <span>
-        <a href="/">Twitter ↗</a>
+        <a href="https://getmakerlog.com/@sergio" target="_blank">
+          Makerlog&nbsp;↗
+        </a>
       </span>
       <span>
-        <a href="/">LinkedIn ↗</a>
+        <a href="https://twitter.com/matteing" target="_blank">
+          Twitter&nbsp;↗
+        </a>
+      </span>
+      <span>
+        <a href="https://www.linkedin.com/in/sergiomattei/" target="_blank">
+          LinkedIn&nbsp;↗
+        </a>
       </span>
       <span>
         <a
           target="_blank"
           href="https://open.spotify.com/user/1233431714?si=Gfd1VxkSQ5qPm8QgaZ6VAA"
         >
-          Spotify ↗
+          Spotify&nbsp;↗
         </a>
       </span>
     </div>

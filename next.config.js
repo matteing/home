@@ -1,6 +1,9 @@
-const withMDX = require("@next/mdx")();
-module.exports = withMDX({
-  pageExtensions: ["js", "mdx"],
+const withMdxEnhanced = require("next-mdx-enhanced");
+module.exports = withMdxEnhanced({
+  layoutPath: "layout/mdx",
+  defaultLayout: true,
+  fileExtensions: ["mdx"],
+})({
   webpack: (config, { isServer }) => {
     // Fixes npm packages (mdx) that depend on `fs` module
     if (!isServer) {
