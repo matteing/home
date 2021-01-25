@@ -15,6 +15,11 @@ export default function BlogPost({ post }) {
           description: post.description || post.excerpt,
           site_name: "Sergio Mattei",
         }}
+        twitter={{
+          handle: "@matteing",
+          site: "@matteing",
+          cardType: "summary",
+        }}
       />
       <Post single post={post} />
     </>

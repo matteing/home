@@ -23,5 +23,6 @@ export const DEFAULT_SEO = {
   twitter: {
     handle: "@matteing",
     site: "@matteing",
+    cardType: "summary",
   },
 };
