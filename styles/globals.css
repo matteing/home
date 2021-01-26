@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply text-sm inter;
+  @apply text-sm font-inter;
 }
 
 a {
