@@ -2,7 +2,6 @@ import { NextSeo } from "next-seo";
 import Prose from "../../components/Prose";
 
 export default function MdxPage({ children, frontMatter }) {
-  console.log(frontMatter);
   return (
     <>
       <NextSeo

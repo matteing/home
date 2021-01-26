@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply text-sm font-inter;
+  @apply text-sm font-inter antialiased font-feature-default;
 }
 
 a {
