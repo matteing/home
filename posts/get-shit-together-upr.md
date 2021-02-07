@@ -16,7 +16,7 @@ Professors, do we REALLY need to use all this software to post our daily assignm
 - E-mail
 - Datacamp
 
-Is this a fucking joke? Honestly? 
+Is this a fucking joke? Honestly? It's SO easy to miss assignments through how distributed they are all.
 
 People have lives, side-jobs, stuff to do. Centralize your shit. Cut the inefficiency and bullshit.
 
