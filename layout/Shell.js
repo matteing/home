@@ -1,4 +1,3 @@
-import Breadcrumbs from "../components/Breadcrumbs";
 import Footer from "./Footer";
 import Nav from "./Nav";
 
@@ -36,9 +35,6 @@ export default function Shell({ children }) {
 
         <div className="bg-white flex-none" style={{ maxWidth: 576 }}>
           <div className="h-full py-6 px-4 sm:px-6 md:px-8">
-            <div className="flex mb-4">
-              <Breadcrumbs />
-            </div>
             {children}
             <div className="block lg:hidden">
               <Footer />
