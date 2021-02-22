@@ -10,12 +10,14 @@ export default function Nav() {
         </Link>
       </span>
       <span>
-        <Link href="/blog">
-          <a>Blog</a>
-        </Link>
+        <a href="https://matteing.com/lists/" target="_blank">
+          Lists
+        </a>
       </span>
       <span>
-        <a href="/lists">Lists</a>
+        <a href="https://matteing.com" target="_blank">
+          Blog
+        </a>
       </span>
       <span>
         <a href="mailto:info@sergiomattei.com" target="_blank">
